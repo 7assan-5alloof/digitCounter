@@ -18,11 +18,11 @@ int main()
 }
 int counter(int number)
 {
-int numberOfDigits = 0;
-while (number > 0)
-{
-number /= 10;
-numberOfDigits++;
-}
-return numberOfDigits;
+	int numberOfDigits = 0;
+	while (number > 0)
+	{
+		number /= 10;
+		numberOfDigits++;
+	}
+	return numberOfDigits;
 }
